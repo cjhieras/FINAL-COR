@@ -1,0 +1,53 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+  string name, studentNumber, program, yearLevel, term;
+
+
+  cout << "Enter your name: ";
+  getline(cin, name);
+
+  cout << "Enter your student number: ";
+  getline(cin, studentNumber);
+
+  cout << "Enter your program: ";
+  getline(cin, program);
+
+  cout << "Enter your year level: ";
+  getline(cin, yearLevel);
+
+  cout << "Enter your term: ";
+  getline(cin, term);
+
+  cout << "\nTerm: 20232024" << endl;
+  cout << "Student#:" << studentNumber << "\t\tCollege:\t" << program << endl;
+  cout << "Name:\t" << name << "\t\tYour Level:\t" << yearLevel << "\n" << endl;
+  cout << "Courses\t\t\tTitle\t\t\t\t\t\tSection\t\tUnits\tDays\t   Time\t\t  Room" << endl;
+  // You can add more code here to input and display course information as needed.
+
+  cout << "CCS0001\t\t Introduction to Computing (LEC)\t\t\t TN12\t\t  2\t T\t 13:00-15:40\t ONLINE" << endl;
+  cout << "CCS0001L\t Introduction to Computing (LAB)\t\t\t TN12\t\t  1\t S\t 16:00-18:50\t TBA" << endl;
+  cout << "CCS0003\t\t Computer Programming (LEC)\t\t\t\t TN09\t\t  2\t F\t 10:00-12:40\t ONLINE" << endl;
+  cout << "CCS0003L\t Computer Programming (LAB)\t\t\t\t TN09\t\t  1\t TH\t 10:00-12:50\t E608" << endl;
+  cout << "IT0017\t\t Discrete Mathematics\t\t\t\t\t TW23\t\t  3\t W/S\t 9:00-10:50\t F610" << endl;
+  cout << "IT0017\t\t Quantitative Methods (INCL MODELING AND SIMULATION)\t TW23\t\t  3\t T/F\t 16:00-17:50\t ONLINE" << endl;
+  
+  cout << "\nTOTAL UNITS 12" << endl;
+
+
+
+  cout << "\nTuition fee (12)\t\t\t\t\t\t\t\t\t\t22,824.00" << endl;
+  cout << "Miscellaneous Fee\t\t\t\t\t\t\t\t\t\t8,933.00" << endl;
+  cout << "ID Validation Fee\t\t\t\t\t\t\t\t\t\t75.00" << endl;
+  cout << "ITE Computer Laboratory Fee (CCS0003)\t\t\t\t\t\t\t\t3,619.00" << endl;
+  cout << "ITE Computer Laboratory Fee (CCS0001)\t\t\t\t\t\t\t\t3,619.00" << endl;
+  cout << "TOTAL ASSESSMENT\t\t\t\t\t\t\t\t\t\t39,070.00" << endl;
+  cout << "\nDown Payment (Upon Enrollment) 40%\t\t\t\t\t\t\t\t15,628.00" << endl;
+  cout << "Midterm (Oct 09 - Oct 11 2023) 30%\t\t\t\t\t\t\t\t11,721.00" << endl;
+  cout << "Final (Nov 30 - Dec 04 2023) 30%\t\t\t\t\t\t\t\t11,721.00" << endl;
+  cout << "Add on: Installment Fee\t\t\t\t\t\t\t\t\t\t250.00" << endl;
+
+return 0;
+}
